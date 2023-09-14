@@ -86,14 +86,6 @@ class Program : Overlay
     #endregion
 
 
-    #region --------------[Command Prompt]--------------
-
-    private static string cmdinput = "echo <>";
-    private const int maxCommandLenght = 200;
-
-    #endregion
-
-
     protected override void Render()
     {
         if (showMenu)
